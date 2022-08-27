@@ -1,0 +1,3 @@
+
+class MailChimpHttp:
+    pass
