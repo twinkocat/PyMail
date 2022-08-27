@@ -16,6 +16,3 @@ class AppMailchimp:
     def format_url(self, url: str) -> str:
         return urljoin(self.base_url, url.strip('/'))
 
-
-a = AppMailchimp()
-print(a.format_url('1111'))
